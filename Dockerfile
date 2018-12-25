@@ -1,6 +1,6 @@
 FROM python:3.6-alpine3.6
 
-ENV OJ_ENV production
+ENV OJ_ENV development
 
 ADD . /app
 WORKDIR /app
